@@ -7,4 +7,4 @@ scikit-image
 networkx
 scikit-learn
 scipy
-nilearn
+

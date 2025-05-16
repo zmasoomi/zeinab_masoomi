@@ -6,5 +6,5 @@ nibabel
 scikit-image
 networkx
 scikit-learn
-skimage
 scipy
+nilearn

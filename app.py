@@ -7,14 +7,11 @@ import nibabel as nib
 import networkx as nx
 from sklearn.preprocessing import MinMaxScaler
 from scipy.stats import norm
-from nilearn import plotting
 from scipy.ndimage import map_coordinates
 from dash import Dash, html,dash_table,dcc, callback, Output, Input
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from skimage import measure
-from scipy.ndimage import zoom
-
 
 
 mask_path = r"C:\Users\zmaso\OneDrive\data science\phd\phdproject\data\2mm data\P1\GM\GM_mask_2mm.nii"

@@ -3,18 +3,13 @@
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib import cm, colors
 import nibabel as nib
-import os
 import networkx as nx
-import time
 from sklearn.preprocessing import MinMaxScaler
 from scipy.stats import norm
 from nilearn import plotting
 from scipy.ndimage import map_coordinates
 from dash import Dash, html,dash_table,dcc, callback, Output, Input
-import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from skimage import measure
